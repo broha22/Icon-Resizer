@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = iconresizerprefs;
+	cell = PSLinkCell;
+	detail = iconresizerprefsListController;
+	icon = iconresizer.png;
+	isController = 1;
+	label = "Icon Resizer";
+    };
+}

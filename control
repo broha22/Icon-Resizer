@@ -1,0 +1,10 @@
+Package: com.evilgoldfish.iconresizer
+Name: Icon Resizer
+Depends: mobilesubstrate, applist, preferenceloader
+Version: 0.9.2
+Architecture: iphoneos-arm
+Description: A tweak to resize individual icons.
+Maintainer: evilgoldfish <evilgoldfish01@gmail
+Author: evilgoldfish
+Section: Tweaks
+Depiction: http://evilgoldfish.github.io/repo/iconresizer/index.html

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Icon Resizer preferences</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.evilgoldfish.iconresizer.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.evilgoldfish.iconresizer</string>
+			<key>key</key>
+			<string>enableSwitch</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>isController</key>
+			<string>1</string>
+			<key>label</key>
+			<string>Resize icons</string>
+			<key>ALAllowsSelection</key>
+			<string>1</string>
+			<key>ALChangeNotification</key>
+			<string>com.evilgoldfish.iconresizer.settingschanged</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.evilgoldfish.iconresizer.plist</string>
+			<key>ALSectionDescriptors</key>
+			<array>
+				<dict>
+					<key>footer-title</key>
+					<string>Use the settings to resize icons on the home screen.</string>
+					<key>items</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>text</key>
+					<string>Default</string>
+					<key>cell-class-name</key>
+					<string>ALDisclosureIndicatedCell</string>
+					<key>action</key>
+					<string>showPreferences</string>
+					<key>icon-size</key>
+					<string>29</string>
+					<key>suppress-hidden-apps</key>
+					<string>1</string>
+					<key>display-identifier-macro</key>
+					<string>@@DISPLAYIDENTIFIER@@</string>
+					<key>entry</key>
+					<dict>
+						<key>PostNotification</key>
+						<string>com.evilgoldfish.iconresizer.settingschanged</string>
+						<key>cell</key>
+						<string>PSSliderCell</string>
+						<key>default</key>
+						<string>62</string>
+						<key>defaults</key>
+						<string>com.evilgoldfish.iconresizer</string>
+						<key>key</key>
+						<string>@@DISPLAYIDENTIFIER@@</string>
+						<key>max</key>
+						<integer>70</integer>
+						<key>min</key>
+						<integer>10</integer>
+						<key>showValue</key>
+						<true/>
+						<key>bundle</key>
+						<string>AppList</string>
+						<key>isController</key>
+						<string>1</string>
+						<key>overridePrincipalClass</key>
+						<string>1</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Default icon size</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.evilgoldfish.iconresizer.settingschanged</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>62</integer>
+			<key>defaults</key>
+			<string>com.evilgoldfish.iconresizer</string>
+			<key>key</key>
+			<string>allSizesDefaultSlider</string>
+			<key>label</key>
+			<string>Size of all icons</string>
+			<key>max</key>
+			<integer>70</integer>
+			<key>min</key>
+			<integer>10</integer>
+			<key>showValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Icon Resizer</string>
+</dict>
+</plist>
