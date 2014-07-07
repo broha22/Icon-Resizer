@@ -29,6 +29,9 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import "substrate.h"
 
+@protocol SBIconIndexNode <NSObject>
+@end
+
 @protocol SBReusableView <NSObject>
 -(void)prepareForReuse;
 @end
