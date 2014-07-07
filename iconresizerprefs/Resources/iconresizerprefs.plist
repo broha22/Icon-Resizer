@@ -387,26 +387,6 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>Experimental</string>
-		</dict>
-		<dict>
-			<key>PostNotification</key>
-			<string>com.evilgoldfish.iconresizer.settingschanged</string>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<false/>
-			<key>defaults</key>
-			<string>com.evilgoldfish.iconresizer</string>
-			<key>key</key>
-			<string>disablegridlock</string>
-			<key>label</key>
-			<string>Place icons anywhere</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
 			<key>footerText</key>
 			<string>You need to respring before any changes will work.</string>
 			<key>footerAlignment</key>
