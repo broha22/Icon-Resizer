@@ -1,5 +1,5 @@
 include theos/makefiles/common.mk
-
+export ARCHS = armv7 armv7s arm64
 TWEAK_NAME = IconResizer
 IconResizer_FILES = Tweak.xm
 IconResizer_FRAMEWORKS = UIKit CoreGraphics
